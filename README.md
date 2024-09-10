@@ -4,6 +4,25 @@ In this repository, a simple Multi-layer Perceptron (MLP) network is implemented
 
 ## Installation & Requirements
 
+To work with this repository, one should have [Python](https://www.python.org/) version that is [3.10](https://www.python.org/downloads/release/python-3100/), since [Tensorflow](https://www.tensorflow.org/) is employed.
+
+Then, one goes to [this](https://data.niaid.nih.gov/resources?id=zenodo_10972837) and download the ```fuel_optimal_db.txt``` file. Then, paste this into a folder called:
+
+```txt
+datasets/fuel_optimal_db.csv
+```
+
+Finally, one can install the required packages via:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+The main script is [space_traj_mlp.ipynb](space_traj_mlp.ipynb), and shows how to create a MLP with 2 hidden layers with 64 and 32 neurons, respectively.
+
+The model is then trained over a small number of epochs, and the results are plotted.
 
 ## Contributing
 
