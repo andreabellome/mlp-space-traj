@@ -35,6 +35,6 @@ The work is under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses
 
 ## References
 <a id="1">[1]</a> 
-Acciarini, G., Gondelach, D., & Izzo, D. (2024). 
+Acciarini, G., Beauregard, L., & Izzo, D. (2024). 
 Computing low-thrust transfers in the asteroid belt, a comparison between astrodynamical manipulations and a machine learning approach.
 https://www.researchgate.net/publication/380974504_Computing_low-thrust_transfers_in_the_asteroid_belt_a_comparison_between_astrodynamical_manipulations_and_a_machine_learning_approach.
