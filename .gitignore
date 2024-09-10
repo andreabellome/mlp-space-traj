@@ -2,4 +2,4 @@ dataset/
 __pycache__/
 .venv/
 
-datasets/*.csv
+datasets/fuel_optimal_db.csv
