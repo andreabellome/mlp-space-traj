@@ -2,6 +2,6 @@ dataset/
 __pycache__/
 .venv/
 
-datasets/fuel_optimal_db.csv
+datasets/*.csv
 
 PaperSpace.ipynb
