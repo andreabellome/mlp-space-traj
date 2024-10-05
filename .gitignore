@@ -3,5 +3,6 @@ __pycache__/
 .venv/
 
 datasets/*.csv
+tests/*
 
 PaperSpace.ipynb
