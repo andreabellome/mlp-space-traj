@@ -24,6 +24,8 @@ The main script is [space_traj_mlp.ipynb](space_traj_mlp.ipynb), and shows how t
 
 The model is then trained over a small number of epochs, and the results are plotted.
 
+Another notebook is provided, that is [space_traj_mlp.ipynb](space_traj_mlp.ipynb). This uses [Pytorch](https://pytorch.org/) instead of [Tensorflow](https://www.tensorflow.org/). To install it, one should look at the main page of [Pytorch](https://pytorch.org/) and run the installation depending upon the operating system and local setup.
+
 ## Contributing
 
 Currently, only invited developers can contribute to the repository.
