@@ -4,7 +4,7 @@ In this repository, a simple Multi-layer Perceptron (MLP) network is implemented
 
 ## Installation & Requirements
 
-To work with this repository, one should have [Python](https://www.python.org/) version that is [3.10](https://www.python.org/downloads/release/python-3100/), since [Tensorflow](https://www.tensorflow.org/) is employed.
+To work with this repository, one should have [Python](https://www.python.org/) version that is [3.10](https://www.python.org/downloads/release/python-3100/), since [Pytorch](https://pytorch.org/) is employed. To install it, one should look at the main page of [Pytorch](https://pytorch.org/) and run the installation depending upon the operating system and local setup.
 
 Then, one goes to [this](https://data.niaid.nih.gov/resources?id=zenodo_10972837) and download the ```fuel_optimal_db.txt``` file. Then, paste this into a folder called:
 
@@ -20,11 +20,9 @@ pip install -r requirements.txt
 
 ## Usage
 
-The main script is [space_traj_mlp.ipynb](space_traj_mlp.ipynb), and shows how to create a MLP with 2 hidden layers with 64 and 32 neurons, respectively.
+The main script is [space_traj_mlp_pytorch.ipynb](space_traj_mlp_pytorch.ipynb), and shows how to create a MLP with 2 hidden layers with 64 and 32 neurons, respectively.
 
-The model is then trained over a small number of epochs, and the results are plotted.
-
-Another notebook is provided, that is [space_traj_mlp.ipynb](space_traj_mlp.ipynb). This uses [Pytorch](https://pytorch.org/) instead of [Tensorflow](https://www.tensorflow.org/). To install it, one should look at the main page of [Pytorch](https://pytorch.org/) and run the installation depending upon the operating system and local setup.
+The model is then trained over a small number of epochs, and the results are plotted. The notebook is commented and should be very intuitive.
 
 ## Contributing
 
